@@ -27,10 +27,9 @@ p {
     font-size: 20px;
     font-weight: bold;
 }
-
 .logo {
     width: 300px;
-    margin: 60px auto;
+    margin: 40px auto;
     flex: 0 0 auto;
 }
 
@@ -40,30 +39,29 @@ p {
     font-size: 40px;
     color: #0E79BD;
 }
-
 .container{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     flex: 1 0 auto;
     padding: 140px 0;
-    padding-bottom: 240px;
-    background-image: url(../images/banner_1.png)  ;
+    background-image: url(../images/banner_1.png);
     background-repeat: no-repeat;
-    background-position: 10% 25%;
+    background-position: 10% 25%;        
     background-size: 100% 65%;
 }
 
 .financial{
+	transition: all 2s inherit;
     display: block;
     width: 250px;
     height: 250px;
     margin: 0 20px;
     border-radius: 5px;
     background: #ffffff;
-    -moz-box-shadow:0 2px 48px 0 rgba(0, 0, 0, 0.30);; 
-    -webkit-box-shadow:0 2px 48px 0 rgba(0, 0, 0, 0.30);; 
-    box-shadow:0 2px 48px 0 rgba(0, 0, 0, 0.30);;
+    -moz-box-shadow:0 2px 48px 0 rgba(0, 0, 0, 0.30);
+    -webkit-box-shadow:0 2px 48px 0 rgba(0, 0, 0, 0.30);
+    box-shadow:0 2px 48px 0 rgba(0, 0, 0, 0.30);
     
 }
 .financial .fa-globe {
@@ -71,15 +69,16 @@ p {
     color: #0E79BD;
 }
 .computer{
+	transition: all 2s inherit;
     display: block;
     width: 250px;
     height: 250px;
     border-radius: 5px;
     margin: 0 20px;
     background: #ffffff;
-    -moz-box-shadow:0 2px 48px 0 rgba(0, 0, 0, 0.30);; 
-    -webkit-box-shadow:0 2px 48px 0 rgba(0, 0, 0, 0.30);; 
-    box-shadow:0 2px 48px 0 rgba(0, 0, 0, 0.30);;
+    -moz-box-shadow:0 2px 48px 0 rgba(0, 0, 0, 0.30);
+    -webkit-box-shadow:0 2px 48px 0 rgba(0, 0, 0, 0.30);
+    box-shadow:0 2px 48px 0 rgba(0, 0, 0, 0.30);
 }
 .computer .fa-desktop{
     padding:75px;
@@ -103,6 +102,7 @@ p {
     color: white;
     background: #0E79BD;
     flex: 0 0 auto;
+    font-size: 14px;
 }
 
 @media screen and (max-width: 768px) {
@@ -110,8 +110,9 @@ p {
         margin: 20px auto;
     }
     .title{
-        font-size: 20px;
-        margin-bottom: 20px;
+        font-size: 24px;
+        margin-bottom: 60px;
+        padding: 0 10px;
     }
     .container{
         padding: 45px;
