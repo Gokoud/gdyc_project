@@ -1,1 +1,1 @@
-# gdyc_project
+# 项目群申报网站
